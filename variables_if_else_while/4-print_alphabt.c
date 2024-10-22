@@ -6,19 +6,12 @@
 */
 int main(void)
 {
-char alp;
+char alp = 'a';
 
-for (alp = 'a'; alp <= 'd'; alp++)
+if ( alp != 'e' && alp != 'q' )
 {
 putchar(alp);
-}
-for (alp = 'f'; alp <= 'p'; alp++)
-{
-putchar(alp);
-}
-for (alp = 'r'; alp <= 'z'; alp++)
-{
-putchar(alp);
+alp++;
 }
 putchar('\n');
 
