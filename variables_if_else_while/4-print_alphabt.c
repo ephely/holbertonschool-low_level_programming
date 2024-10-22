@@ -8,9 +8,12 @@ int main(void)
 {
 char alp = 'a';
 
-if ( alp != 'e' && alp != 'q' )
+while (alp <= 'z')
+{
+if (alp != 'e' && alp != 'q')
 {
 putchar(alp);
+}
 alp++;
 }
 putchar('\n');
