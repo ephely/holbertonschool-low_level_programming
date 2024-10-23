@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 char grr
 
-for (grr='a'; grr <= 'z'; grr++)
+for (grr ='a'; print_alphabet <= 'z'; grr++)
 {
 _putchar(grr);
 }
