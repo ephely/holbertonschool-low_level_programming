@@ -14,7 +14,7 @@ for (gang = 0; gang <= 10; gang++)
 {
 for (grr = 'a'; grr <= 'z'; grr++)
 {
-_putchar(grr);
+_putchar(grr'\n');
 }
 }
 _putchar('\n');
