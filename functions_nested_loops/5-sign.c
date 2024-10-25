@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* print_sign - print sins
-* Description: Write a function that check lowercase and uppercase characters
-* @c: The character to check
-* Return: 1 if the character is lowercase or uppercase, 0 otherwise.
+* print_sign - print sign
+* Description: Write a function that print the sign
+* @n: The character to check
+* Return: 1 if the number is above 0, 0 if it's 0, -1 otherwise.
 */
 int print_sign(int n)
 {
