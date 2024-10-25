@@ -19,4 +19,3 @@ _putchar(grr);
 _putchar('\n');
 }
 }
-
