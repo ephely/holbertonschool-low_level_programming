@@ -2,7 +2,7 @@
 /**
 * _abs - write the absolute value of an integer
 * Write a function that computes the absolute value of an integer.
-* @n: The number to be computed. 
+* @n: The number to be computed.
 */
 int _abs(int n)
 {
