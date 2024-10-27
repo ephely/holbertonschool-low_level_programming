@@ -2,7 +2,8 @@
 /**
 * print_last_digit - write the absolute value of an integer
 * Write a function that prints the last digit of a number.
-*
+* @n: The number to be treated
+* Return: Value of the last digit of number
 */
 int print_last_digit(int n)
 {
