@@ -16,9 +16,9 @@ for (faignon = 0; faignon <= 14; faignon++)
 {
 if (faignon >= 10)
 {
-_putchar((faignon / 10) + 0);
+_putchar((faignon / 10) + '0');
 }
-_putchar((faignon % 10) + 0);
+_putchar((faignon % 10) + '0');
 }
 _putchar('\n');
 }
