@@ -1,0 +1,21 @@
+#include "main.h"
+/**
+* more_numbers - print the most numbers
+*
+*/
+
+void more_numbers(void)
+{
+
+char gang;
+char faignon;
+
+for (gang = 0; gang <= Ã9; gang++)
+{
+for (faignon = 0; faignon <= 14; faignon++)
+{
+_putchar(faignon + 0);
+}
+_putchar('\n');
+}
+}
