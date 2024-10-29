@@ -2,7 +2,7 @@
 /**
 * print_diagonal - print diagonal for pleasure
 *
-* 
+*
 *
 * @n: int of number of lines
 */
