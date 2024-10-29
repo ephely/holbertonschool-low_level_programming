@@ -17,9 +17,9 @@ _putchar('\n');
 }
 else
 {
-for(gang = 0; gang < size; gang++)
+for (gang = 0; gang < size; gang++)
 {
-for(gucci = 0; gucci < size; gucci++)
+for (gucci = 0; gucci < size; gucci++)
 {
 _putchar('#');
 }
