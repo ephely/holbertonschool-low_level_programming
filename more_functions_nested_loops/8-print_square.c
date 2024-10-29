@@ -2,7 +2,7 @@
 /**
 * print_square - print squares w/ #
 * Write a function that prints a square, followed by a new line.
-*
+* @size: the size of the square
 *
 */
 
