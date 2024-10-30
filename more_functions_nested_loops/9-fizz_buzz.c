@@ -9,7 +9,7 @@ int main(void)
 {
 int krr;
 
-for(krr = 1; krr <= 100; krr++)
+for (krr = 1; krr <= 100; krr++)
 {
 if (krr % 3 == 0 && krr % 5 == 0)
 {
@@ -35,6 +35,6 @@ else if (krr != 100)
 printf(" ");
 }
 }
-return(0);
+return (0);
 }
 
