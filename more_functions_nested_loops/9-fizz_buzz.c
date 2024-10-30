@@ -13,23 +13,29 @@ for (krr = 1; krr <= 100; krr++)
 {
 if (krr % 3 == 0 && krr % 5 == 0)
 {
-printf(" FizzBuzz");
+printf("FizzBuzz");
 }
 else if (krr % 3 == 0)
 {
-printf(" Fizz");
+printf("Fizz");
 
 }
 else if (krr % 5 == 0)
 {
-printf(" Buzz");
-
+printf("Buzz");
 }
-else if (krr != 3 && krr != 5)
+else
 {
-printf(" %d", krr);
+printf("%d", krr);
+}
+
+if (krr != 100)
+{
+printf(" ");
 }
 }
+
+printf("\n");
+
 return (0);
 }
-
