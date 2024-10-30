@@ -14,20 +14,23 @@ for(krr = 1; krr <= 100; krr++)
 if (krr % 3 == 0 && krr % 5 == 0)
 {
 printf("FizzBuzz");
+putchar(' ');
 }
 else if (krr % 3 == 0)
 {
 printf("Fizz");
+putchar(' ');
 }
 else if (krr % 5 == 0)
 {
 printf("Buzz");
+putchar(' ');
 }
 else if (krr != 3 && krr != 5)
 {
 printf("%d ", krr);
 }
-if (krr != 100)
+else if (krr != 100)
 {
 printf(" ");
 }
