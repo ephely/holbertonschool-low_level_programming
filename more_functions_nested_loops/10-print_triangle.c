@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+* print_triangle - Prints triangle
+* @size: size of triangle
+*
+*
+*/
 void print_triangle(int size)
 {
 int tic, tac, boom;
@@ -17,7 +23,7 @@ for (tac = size - tic; tac > 1; tac--)
 _putchar(32);
 }
 
-for (boom = 0; boom <= tic; tac++)
+for (boom = 0; boom <= tic; boom++)
 {
 _putchar(35);
 }
