@@ -28,7 +28,7 @@ else if (krr != 3 && krr != 5)
 printf("%d ", krr);
 }
 }
-putchar('\n');
+putchar(' ');
 return(0);
 }
 
