@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* _puts - print a string
-* Write a function that prints a string, followed by a new line, to stdout
-* @str: char
+* print_rev - print a string backward
+* Write a function that prints a string, in reverse, followed by a new line.
+* @s: char
 * Return: idk
 */
 
