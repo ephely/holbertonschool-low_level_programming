@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strlen - swap 2 int
+* _strlen - take  the lenght
 * Write a function that returns the length of a string.
 * @s: char
 */
