@@ -1,0 +1,30 @@
+#include "main.h"
+/**
+* puts2 - prints every other character of a string
+* Write a function that prints every other character of a string,
+* starting with the first character, followed by a new line.
+*
+* @s: Pointer
+*/
+
+void puts_half(char *str)
+{
+int rr;
+int hh;
+
+rr = 0;
+while (str[rr] != '\0')
+rr++;
+
+hh = rr / 2;
+
+if (rr % 2 == 1)
+hh++;
+
+while (hh < rr)
+{
+_putchar(str[hh]);
+hh++;
+}
+_putchar('\n');
+}
