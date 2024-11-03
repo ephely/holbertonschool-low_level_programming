@@ -8,33 +8,27 @@
 * Return: void
 */
 
-
 int _atoi(char *s)
 {
-int at = 1;
-unsigned int number = 0;
-int i = 0;
+int sign;
+unsigned int num;
+char *temp;
 
-
-while (s[i] == ' ')
+temp = s;
+num = 0;
+sign = 1;
+while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 {
-i++;
+if (*temp == '-')
+sign *= -1;
+temp++;
 }
-
-while (s[i] == '-' || s[i] == '+')
+if (*temp != '\0')
 {
-if (s[i] == '-')
-{
-at *= -1;
+do {
+num = num * 10 + (*temp - '0');
+temp++;
+} while (*temp >= '0' && *temp <= '9');
 }
-i++;
-}
-
-while (s[i] >= '0' && s[i] <= '9')
-{
-number = (number * 10) + (s[i] - '0');
-i++;
-}
-
-return (at * number);
+return (num * sign);
 }
