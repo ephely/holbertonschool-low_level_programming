@@ -2,7 +2,7 @@
 /**
 * reverse_array - reverses an array
 * @a: int
-* n: number
+* @n: number
 *
 * Return: void
 */
