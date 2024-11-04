@@ -1,12 +1,11 @@
 #include "main.h"
 /**
-*
 * _strncpy - copies a string
 * @dest: dest
 * @src: source
 * @n: number
 */
-char *_strncpy(char *dest, char *src, int n)
+char _strncpy(char *dest, char *src, int n)
 {
 int i = 0;
 
