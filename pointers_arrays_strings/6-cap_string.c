@@ -11,8 +11,9 @@
 char *cap_string(char *str)
 {
 int i = 0;
+int j;
 int cap = 1;
-char separators[] = " \t\n,;.!?\"(){}";
+char sep[] = " \t\n,;.!?\"(){}";
 
 while (str[i] != '\0')
 {
@@ -20,13 +21,14 @@ if (cap && (str[i] >= 'a' && str[i] <= 'z'))
 {
 str[i] = str[i] - ('a' - 'A');
 }
-if (strchr(separators, str[i]))
+cap = 0;
+for (j = 0; sep[j] != '\0'; j++)
+{
+if (str[i] == sep[j])
 {
 cap = 1;
+break;
 }
-else
-{
-cap = 0;
 }
 i++;
 }
