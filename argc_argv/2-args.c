@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - program that prints its name
+* main - prints all arguments it receives
 *
 * @argc: int
 * @argv: char
