@@ -6,6 +6,7 @@
 * @n: int
 *
 * @i: int
+* Return: the return
 */
 
 int extension(int n, int i)
@@ -22,6 +23,7 @@ return (extension(n, i + 1));
 *
 * @n: int
 *
+* Return: the return
 */
 
 int is_prime_number(int n)
