@@ -33,5 +33,6 @@ while (str[i] != '\0')
 gr[i] = str[i];
 i++;
 }
+
 return (gr);
 }

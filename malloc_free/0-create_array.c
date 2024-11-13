@@ -26,5 +26,5 @@ return (NULL);
 ar[i] = c;
 i++;
 }
-return (my_array);
+return (ar);
 }
