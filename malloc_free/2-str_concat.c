@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 /**
-* _strdup - returns a pointer
+* str_concat - concatenates two strings
 *
-* @str: char
+* @s1: char
+* @s2: char
 *
-* Return: gr
+* Return: gl
 */
 
 char *str_concat(char *s1, char *s2)
