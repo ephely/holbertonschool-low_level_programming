@@ -2,21 +2,35 @@
 #include <stdlib.h>
 
 /**
+* _strdup - returns a pointer
+*
+* @str: char
+*
+* Return: gr
 */
 
 char *_strdup(char *str)
 {
 int i;
+int l;
 
-if (str = nul)
+gr = malloc(sizeof(str));
+
+i = 0;
+l = 0;
+while (str[i] != '\0')
 {
-return (NULL);
+l++;
+i++;
 }
-for(i = 0; i != '\0'; i++
-gr = malloc(size * sizeof((str)+1));
+
 if (gr == NULL)
-{
 return (NULL);
+i = 0;
+while (str[i] != '\0')
+{
+gr[i] = str[i];
+i++;
 }
-
+return (gr);
 }
