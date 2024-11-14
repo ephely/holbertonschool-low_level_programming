@@ -18,17 +18,22 @@ char *gr;
 if (str == NULL)
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++)
-;
+for (l = 0; str[l] != '\0'; l++);
 
-gr = malloc(sizeof(str));
+gr = malloc(sizeof(char) * (l + 1));
 
 if (gr == NULL)
 return (NULL);
 
-for (l = 0; l < i; l++)
-gr[l] = str[i];
+for (i = 0; i < l; i++)
+{
+gr[i] = str[i];
+}
 gr[l] = '\0';
-
 return (gr);
 }
+
+
+
+
+
