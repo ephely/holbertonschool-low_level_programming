@@ -18,12 +18,12 @@ unsigned int ns;
 
 ns = nmemb * size;
 
-cal = malloc(ns);
-
 if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
+
+cal = malloc(ns);
 
 for (i = 0; i < ns; i++)
 {
