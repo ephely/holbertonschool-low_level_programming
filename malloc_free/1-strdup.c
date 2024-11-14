@@ -15,24 +15,20 @@ int i;
 int l;
 char *gr;
 
-gr = malloc(sizeof(str));
+if (str == NULL)
+return (NULL);
 
-i = 0;
-l = 0;
-while (str[i] != '\0')
-{
-l++;
-i++;
-}
+for (i = 0; str[i] != '\0'; i++)
+;
+
+gr = malloc(sizeof(str));
 
 if (gr == NULL)
 return (NULL);
-i = 0;
-while (str[i] != '\0')
-{
-gr[i] = str[i];
-i++;
-}
+
+for (l = 0; l < i; l++)
+gr[l] = str[l];
+gr[l] = '\0';
 
 return (gr);
 }
