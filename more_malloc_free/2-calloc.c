@@ -35,6 +35,6 @@ if (cal == NULL)
 return (NULL);
 }
 
-return (cal);
+return ((void *)cal);
 }
 
