@@ -25,14 +25,14 @@ return (NULL);
 
 cal = malloc(ns);
 
-for (i = 0; i < ns; i++)
-{
-cal[i] = 0;
-}
-
 if (cal == NULL)
 {
 return (NULL);
+}
+
+for (i = 0; i < ns; i++)
+{
+cal[i] = 0;
 }
 
 return ((void *)cal);
