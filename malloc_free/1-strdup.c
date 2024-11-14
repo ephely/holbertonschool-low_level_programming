@@ -27,7 +27,7 @@ if (gr == NULL)
 return (NULL);
 
 for (l = 0; l < i; l++)
-gr[l] = str[l];
+gr[l] = str[i];
 gr[l] = '\0';
 
 return (gr);
