@@ -2,11 +2,12 @@
 #include <stdlib.h>
 
 /**
-* malloc_checked - allocates memory using malloc
+* *_calloc - allocates memory for an array, using malloc
 *
-* @b: int
+* @nmemb: int
+* @size: int
 *
-* Return: chk
+* Return: cal
 */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
