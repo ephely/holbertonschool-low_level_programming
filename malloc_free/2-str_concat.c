@@ -17,6 +17,10 @@ int j;
 int k;
 char *gl;
 
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
 
 gl = malloc(sizeof(*s1 + *s2));
 
