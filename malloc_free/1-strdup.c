@@ -18,7 +18,7 @@ char *gr;
 if (str == NULL)
 return (NULL);
 
-for (l = 0; str[l] != '\0'; l++);
+for (l = 0; str[l] != '\0'; l++)
 
 gr = malloc(sizeof(char) * (l + 1));
 

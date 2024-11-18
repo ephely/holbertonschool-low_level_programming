@@ -22,29 +22,19 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-gl = malloc(sizeof(*s1 + *s2));
+for (i = 0; s1[i] || s2[i]; i++)
+k++;
+
+gl = malloc(sizeof(char) * k);
 
 if (gl == NULL)
-{
 return (NULL);
-}
 
-i = 0;
-while (s1[i] != '\0')
-{
-gl[k] = s1[i];
-i++;
-k++;
-}
+for (i = 0; s1[i]; i++)
+gl[j++] = s1[i];
 
-j = 0;
-while (s2[j] != '\0')
-{
-gl[k] = s2[j];
-j++;
-k++;
-}
+for (i = 0; s2[i]; i++)
+gl[j++] = s2[i];
 
 return (gl);
-free(gl);
 }
