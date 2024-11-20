@@ -1,3 +1,6 @@
+#include "3-calc.h"
+#include <stdio.h>
+
 /**
 * op_add - add
 *
@@ -7,12 +10,11 @@
 * Return: a + b
 */
 
-
-
 int op_add(int a, int b)
 {
 return (a + b);
 }
+
 
 /**
 * op_sub - sub
@@ -28,6 +30,7 @@ int op_sub(int a, int b)
 return (a - b);
 }
 
+
 /**
 * op_mul - miltiply
 *
@@ -41,6 +44,7 @@ int op_mul(int a, int b)
 {
 return (a * b);
 }
+
 
 /**
 * op_div - divide
@@ -59,6 +63,7 @@ fprintf(stderr, "divided by zero\n");
 }
 return (a / b);
 }
+
 
 /**
 * op_mod - rest of a division
