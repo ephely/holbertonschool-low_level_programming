@@ -21,8 +21,11 @@ op_t ops[] = {
 { NULL, NULL }
 };
 int i = 0;
-while (ops[i].op != NULL && *(ops[i].op) != *s)
-i++;
-
+while (i < 5)
+{
+if (ops[i].op[0] == s[0])
 return (ops[i].f);
+i++;
+}
+return (NULL);
 }
