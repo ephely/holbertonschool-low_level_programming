@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * op_add - add
@@ -22,7 +23,7 @@ return (a + b);
 * @a: int
 * @b: int
 *
-* Return: a + b
+* Return: a - b
 */
 
 int op_sub(int a, int b)
@@ -71,7 +72,7 @@ return (a / b);
 * @a: int
 * @b: int
 *
-* Return: a / b
+* Return: a % b
 */
 
 int op_mod(int a, int b)
