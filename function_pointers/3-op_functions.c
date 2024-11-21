@@ -82,5 +82,5 @@ if (b == 0)
 fprintf(stderr, "divided by zero\n");
 return (-1);
 }
-return (a / b);
+return (a % b);
 }
