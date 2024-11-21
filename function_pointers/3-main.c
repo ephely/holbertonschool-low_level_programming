@@ -11,7 +11,6 @@
 */
 int main(int argc, char *argv[])
 {
-{
 int a, b, result;
 int (*operation)(int, int);
 
