@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
-* print_char - Print a character from the argument list.
-* @args: The argument list.
+* print_char - print character
+* @arg: value
 */
 
 void print_char(va_list arg)
@@ -13,7 +13,7 @@ printf("%c", va_arg(arg, int));
 }
 
 /**
-* print_int - Print an integer from the argument list.
+* print_int - print integer
 * @arg: value
 */
 
