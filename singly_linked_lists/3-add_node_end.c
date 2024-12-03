@@ -1,22 +1,17 @@
 #include "lists.h"
 #include <stdio.h>
 #include <string.h>
-
 /**
  * add_node_end - function that adds a
  * new node at the end of a list_t list
- *
  * @head: head
  * @str: string.
- *
  * Return: head
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
-
 	list_t *s;
-    list_t *last;
+	list_t *last;
 	char *new_str;
 	unsigned int len;
 
@@ -54,6 +49,5 @@ list_t *add_node_end(list_t **head, const char *str)
 		}
 		last->next = s;
 	}
-
 	return (s);
 }
