@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_list - prints all the elements of a list_t list.
+ * list_len - function that returns the number of
+ * elements in a linked list_t list
  * @h: singly linked list.
  * Return: life
  */
@@ -16,7 +17,7 @@ size_t list_len(const list_t *h)
 		if (h->str == NULL)
 			printf("NULL\n");
 		else
-            h = h->next;
+			h = h->next;
 		life++;
 	}
 	return (life);
