@@ -3,11 +3,12 @@
 #include <string.h>
 
 /**
- * add_node - function that adds a new node
- * at the beginning of a list_t list.
+ * add_dnodeint_end - adds a new node at the end
+ * of a dlistint_t list.
+ *
  * @head: head
- * @str: string.
- * Return: head
+ * @n: int.
+ * Return: s
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
@@ -22,8 +23,8 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	s->prev = NULL;
 	s->next = NULL;
 
- if (*head == NULL)
-    {
+	if (*head == NULL)
+	{
 
 		s->prev = NULL;
 		*head = s;
@@ -34,8 +35,6 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		temp = *head;
 		while (temp->next != NULL)
 			temp = temp->next;
-
-        
 		temp->next = s;
 		s->prev = temp;
 	}
